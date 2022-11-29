@@ -12,7 +12,6 @@ object Playground extends App {
   // calculate abs function
   def abs(x: Double) = if (x >= 0) x else -x
 
-  println(abs(-5))
 
   // calculate square root function
 

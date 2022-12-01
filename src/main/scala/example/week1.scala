@@ -7,16 +7,11 @@ package example
   *
   * Daniel @ Rock the JVM
   */
-object main extends App {
+object week1 extends App {
 
   // calculate abs function
   def abs(x: Double) = if (x >= 0) x else -x
   println(abs(-5))
-
-
-
-
-
 
 
   // calculate square root function
@@ -37,8 +32,6 @@ object main extends App {
   }
 
   println(sqrt(0.1e-20))
-
-
 
 
 
